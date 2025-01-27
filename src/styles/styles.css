@@ -1,0 +1,33 @@
+.task-app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .task-form {
+    margin-bottom: 20px;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task-item.completed span {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
